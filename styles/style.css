@@ -1,12 +1,19 @@
 h1 {
 	margin: 0;
-	padding: 40px 0;
+	padding: 30px 0;
 	font-family: 'Archivo Black', sans-serif;
 	text-align: center;
 	font-size: 60px;
-	background-color: #F3DCB5;
+	background-color: #FFDCB5;
 	color: #505050;
-	background-image: url(/images/auditorium2.jpg);
+	text-shadow: 2px 2px 1px grey;
+}
+
+.main-body {
+	width: 600px;
+	background-color: 
+	margin: 0 auto;
+	padding: 0 20px 20px 20px;
 }
 
 p, li {
@@ -14,8 +21,8 @@ p, li {
 	font-family: 'Merriweather', serif;
 }
 
-img {
+.head-photo {
 	display: block;
 	margin: 0 auto;
+	height: 200px;
 	width: 100%;
-	height: auto;
