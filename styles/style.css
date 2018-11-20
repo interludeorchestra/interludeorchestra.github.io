@@ -52,11 +52,11 @@ footer a:hover {
 	background-color: #FFDCB5
 }
 
-li {
+.nav-bar li {
 	float: left;
 }
 
-li a {
+.nav-bar li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -64,7 +64,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover,
+.nav-bar li a:hover,
 .active {
 	background-color: #C2AD8A;
 }
@@ -90,3 +90,20 @@ li a:hover,
 	font-size: 1.1em;
 }
 
+@media screen and (max-width: 600px) {
+	.nav-bar .sbar {
+		float: none;
+	}
+	.nav-bar li {
+		float: none;
+	}
+	.nav-bar li a, .navbar .sbar input[type=search], .nav-bar .sbar input[type=submit]{
+		float: none;
+		display: block;
+		text-align: left;
+		width: 100%;
+		margin: 0;
+		padding: .9em;
+	}
+		
+}
