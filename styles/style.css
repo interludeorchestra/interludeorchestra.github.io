@@ -1,9 +1,11 @@
 body {
 	font-size: 1em;
 	background-color: E1E2E8;
+	padding: 1em;
+	margin: 0 auto;
 }
 
-h1 {
+header h1 {
 	margin: 0;
 	color: white;
 	padding: .1em 0;
@@ -14,7 +16,7 @@ h1 {
 	text-shadow: .05em .05em .05em grey;
 }
 
-.main-body {
+main {
 	width: 75%;
 	background-color: #F0F0F0;
 	margin: 0 auto;
@@ -22,12 +24,69 @@ h1 {
 	text-align: center;
 }
 
-p, li {
+p{
 	font-size: 1.2em;
 	font-family: 'Merriweather', serif;
+}
+
+a {
+	color: blue;
+}
+
+footer a:hover {
+	text-decoration: none;
 }
 
 .head-photo {
 	margin: 0 auto;
 	width: 100%;
 }
+
+/* Top Navigation Bar */
+.nav-bar {
+
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-color: #FFDCB5
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1.2em 1.4em;
+	text-decoration: none;
+}
+
+li a:hover,
+.active {
+	background-color: #C2AD8A;
+}
+
+.nav-bar .sbar{
+	float: right;
+}
+
+.nav-bar .sbar input[type=submit]{
+	padding: .5em;
+	margin-top: .6em;
+	margin-right: 1em;
+	font-size: 1.1em;
+	border: none;
+	cursor: pointer;
+}
+
+.nav-bar .sbar input[type=search]{
+	padding: .5em;
+	border: none;
+	margin-top: 0em;
+	margin-right: 0em;
+	font-size: 1.1em;
+}
+
