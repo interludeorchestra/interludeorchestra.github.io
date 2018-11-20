@@ -1,28 +1,33 @@
+body {
+	font-size: 1em;
+	background-color: E1E2E8;
+}
+
 h1 {
 	margin: 0;
-	color: #505050;
-	padding: 30px 0;
+	color: white;
+	padding: .1em 0;
 	font-family: 'Archivo Black', sans-serif;
-	text-align: center;
-	font-size: 60px;
+	text-align: left;
+	font-size: 2em;
 	background-color: #FFDCB5;
-	text-shadow: 2px 2px 1px grey;
+	text-shadow: .05em .05em .05em grey;
 }
 
 .main-body {
 	width: 75%;
 	background-color: #F0F0F0;
 	margin: 0 auto;
-	padding: 0 20px 20px 20px;
+	padding: 0 10% 10% 10%;
 	text-align: center;
 }
 
 p, li {
-	font-size: 20px;
+	font-size: 1.2em;
 	font-family: 'Merriweather', serif;
 }
 
 .head-photo {
-	display: block;
 	margin: 0 auto;
 	width: 100%;
+}
