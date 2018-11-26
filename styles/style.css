@@ -30,7 +30,7 @@ p{
 }
 
 main p {
-	text-align: justify;
+	text-align: left;
 	text-indent: 2em;
 }
 main h2 {
