@@ -12,13 +12,13 @@ header h1 {
 	font-family: 'Archivo Black', sans-serif;
 	text-align: left;
 	font-size: 2em;
-	background-color: #FFDCB5;
+	background-color: #004d99;
 	text-shadow: .05em .05em .05em grey;
 }
 
 main {
 	width: 75%;
-	background-color: #FBF5EC;
+	background-color: #e62ff;
 	margin: 0 auto;
 	padding: 0 10% 10% 10%;
 	text-align: center;
@@ -59,7 +59,7 @@ footer a:hover {
 	margin: 0;
 	padding:0;
 	overflow: hidden;
-	background-color: #FFDCB5
+	background-color: #004d99
 }
 
 .nav-bar li {
@@ -76,7 +76,7 @@ footer a:hover {
 
 .nav-bar li a:hover,
 .active {
-	background-color: #C2AD8A;
+	background-color: #99ccff;
 }
 
 .nav-bar .sbar{
