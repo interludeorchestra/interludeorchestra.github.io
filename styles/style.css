@@ -33,6 +33,9 @@ main p {
 	text-align: left;
 	text-indent: 2em;
 }
+main p i {
+	font-size: .75em;
+}
 main h2 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 1.5em;
@@ -41,6 +44,12 @@ main h2 {
 main h4 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+}
+main h5 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.25em;
 	font-weight: bold;
 	text-align: left;
 }
