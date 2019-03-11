@@ -33,10 +33,34 @@ main p {
 	text-align: left;
 	text-indent: 2em;
 }
+main p i {
+	font-size: .75em;
+}
 main h2 {
 	font-family: 'Archivo Black', sans-serif;
 	font-size: 1.5em;
 	font-weight: bold;
+}
+main h4 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: left;
+}
+main h5 {
+	font-family: 'Archivo Black', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: left;
+}
+main ol {
+	text-align: left;
+	padding: .1em
+}
+main ol li {
+	font-size: 1.25em;
+	padding: .5em;
+	margin-left: .5em;
 }
 
 a {
@@ -107,7 +131,9 @@ footer a:hover {
 	.nav-bar li {
 		float: none;
 	}
-	.nav-bar li a, .navbar .sbar input[type=search], .nav-bar .sbar input[type=submit]{
+	.nav-bar li a, 
+	.navbar .sbar input[type=search], 
+	.nav-bar .sbar input[type=submit]{
 		float: none;
 		display: block;
 		text-align: left;
