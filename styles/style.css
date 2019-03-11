@@ -12,13 +12,13 @@ header h1 {
 	font-family: 'Archivo Black', sans-serif;
 	text-align: left;
 	font-size: 2em;
-	background-color: #004d99;
+	background-color: #ffe4b2;
 	text-shadow: .05em .05em .05em grey;
 }
 
 main {
 	width: 75%;
-	background-color: #e62ff;
+	background-color: #fff8f4;
 	margin: 0 auto;
 	padding: 0 10% 10% 10%;
 	text-align: center;
